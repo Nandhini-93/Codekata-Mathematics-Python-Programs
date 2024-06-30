@@ -1,0 +1,14 @@
+n=int(input())
+l,r=(int(num) for num in input().split())
+if n>l and n<r:
+    print("yes")
+else:
+    print("no")
+
+Sample Testcase :
+INPUT
+3
+2 6
+
+OUTPUT
+yes

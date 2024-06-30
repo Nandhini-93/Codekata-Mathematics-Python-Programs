@@ -1,0 +1,13 @@
+N,M=map(int,input().split())
+product=N*M
+if product**0.5==N:
+    print("yes")
+else:
+    print("no")
+
+Sample Testcase :
+INPUT
+5 5
+
+OUTPUT
+yes

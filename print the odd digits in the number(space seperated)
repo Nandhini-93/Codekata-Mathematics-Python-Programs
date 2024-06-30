@@ -1,0 +1,18 @@
+a=input()
+n=int(a)
+arr=[]
+for i in a:
+    if int(i)%2==1:
+        arr.append(i)
+    n=n//10
+if len(arr)>=1:
+    print(*arr)
+else:
+    print(-1)
+
+Sample Testcase :
+INPUT
+2143
+
+OUTPUT
+1 3

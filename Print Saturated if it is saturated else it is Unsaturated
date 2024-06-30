@@ -1,0 +1,16 @@
+A saturated number is a number which is made by exactly two digits.
+
+n = input()
+res = list(set(n))
+#print(res)
+
+if(len(res) == 2):
+    print("Saturated")
+else:
+  print("Unsaturated")
+
+Sample Input :
+121
+
+Sample Output :
+Saturated

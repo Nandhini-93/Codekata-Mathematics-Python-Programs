@@ -1,0 +1,11 @@
+N=int(input())
+num=(int(num) for num in input().split())
+minimum=min(num)
+print(minimum)
+
+Sample Input :
+5
+3 4 9 1 6
+
+Sample Output :
+1

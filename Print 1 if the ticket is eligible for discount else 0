@@ -1,0 +1,18 @@
+n = int(input())
+l = [int(x) for x in input().split()]
+k = int(input())
+a = []
+for i in l:
+    if i % k == 0:
+        a.append(1)
+    else:
+        a.append(0)
+print(*a)
+
+Sample Input :
+6
+112 139 165 175 262 130
+22
+
+Sample Output :
+0 0 0 0 0 0

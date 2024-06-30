@@ -1,0 +1,10 @@
+B,H=map(int,input().split())
+area=0.5*B*H
+print(area)
+
+Sample Testcase :
+INPUT
+2 4
+
+OUTPUT
+4

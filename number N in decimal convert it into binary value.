@@ -1,0 +1,8 @@
+print(str(bin(int(input())))[2:])
+
+Sample Testcase :
+INPUT
+5
+
+OUTPUT
+101

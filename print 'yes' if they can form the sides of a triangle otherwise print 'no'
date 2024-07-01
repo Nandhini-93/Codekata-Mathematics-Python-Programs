@@ -1,0 +1,15 @@
+a, b, c=input().split(" ")
+a=int(a)
+b=int(b)
+c=int(c)
+if c>a and c>b:     
+    print("yes")
+else:
+    print("no")
+
+Sample Testcase :
+INPUT
+3 4 5
+
+OUTPUT
+yes
